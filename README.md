@@ -1,3 +1,4 @@
+```
 /*
 Copyright 2025 Google LLC
 
@@ -13,6 +14,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+```
 
 # template-generic-repo
 A template for a generic repository with core files and directories to speed to project setup.
