@@ -1,25 +1,73 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# IDEs
+.idea/
+*.iml
+*.ipr
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Test binary, built with `go test -c`
-*.test
+# Local history for VSCode
+.history/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# build VSCode extensions
+*.vsix
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Build systems
+build/
+dist/
+out/
+target/
+*.class
+*.pyc
 
-# Go workspace file
-go.work
-go.work.sum
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
 
-# env file
-.env
+# Other generated files
+*.log
+*.tmp
+*.bak
+Thumbs.db
+
+# Ignore the .aiexclude file itself
+.aiexclude
+
+
+# Local development files
+epubs/
+.genkit/
+node_modules/
+package-lock.json
+
+# Terraform
+.terraform
+.terraform.lock.hcl
+.tfstate
+.tfstate.backup
+
+# Genkit environment
+.genkit/
+
+# tests
+coverage
+
+# Firebase cache & Logs
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Firebase config
+# Uncomment this if you'd like others to create their own Firebase project.
+# For a team working on the same Firebase project(s), it is recommended to leave
+# it commented so all members can deploy to the same project(s) in .firebaserc.
+.firebaserc
