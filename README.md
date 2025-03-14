@@ -16,7 +16,23 @@ limitations under the License.
 */
 ```
 
-# template-generic-repo
+# A generic repo template
 A template for a generic repository with core files and directories to speed to project setup.
 
 
+What are the files?
+
+```
+.
+├── .aiexcludes					# used by Gemini Code Assist to exclude certain files or directories being indexed in GCA responses
+├── .gitignore					# used by git to exlude files and directories under git management
+├── .gemini
+│   ├── config.yaml				# Gemini code assist code review agent configuration
+│   ├── config-decriptions.yaml	# Gemini code assist code review agent configuration descriptions
+│   ├── styleguide-example.md	# Gemini code assist code review agent detail on what to look at (example)
+│   └── styleguide.md			# Gemini code assist code review agent detail on what to look at
+└── .idx
+    ├── dev.nix
+    └── 
+
+```

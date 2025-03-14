@@ -39,13 +39,8 @@ env/
 *.bak
 Thumbs.db
 
-# Ignore the .aiexclude file itself
-.aiexclude
-
 
 # Local development files
-epubs/
-.genkit/
 node_modules/
 package-lock.json
 

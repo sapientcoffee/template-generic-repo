@@ -1,0 +1,12 @@
+# .aiexclude used to exclude files, even of it's open, from Gemini Code Asisst indexing (by default it use any open files)
+# it follows the same syntax as a .gitignore file, with the following differences:
+#  - An empty .aiexclude file blocks all files in its directory and all sub-directories. This result is the same as a file that contains **/*.
+#  - An .aiexclude file doesn't support negation, where you prefix patterns with an exclamation point (!).
+
+# More details - https://cloud.google.com/gemini/docs/codeassist/create-aiexclude-file
+
+# some examples
+apikeys.txt
+*.key
+/apikeys.txt
+my/sensitive/dir/
