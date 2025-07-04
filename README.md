@@ -36,3 +36,12 @@ What are the files?
     └── 
 
 ```
+
+# Gemini CLI
+
+## Observability/Telemetry
+
+https://github.com/google-gemini/gemini-cli/blob/main/docs/telemetry.md
+
+You can enable telemetry in multiple ways. Configuration is primarily managed via the `.gemini/settings.json` file and environment variables, but CLI flags can override these settings for a specific session. Its built on the OpenTelemetry (OTEL) standard, allowing you to send data to any compatible backend.
+
